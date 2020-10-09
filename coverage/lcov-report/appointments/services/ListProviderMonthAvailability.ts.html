@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for users/services/SendForgotPasswordEmailService.ts</title>
+    <title>Code coverage report for appointments/services/ListProviderMonthAvailability.ts</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../../prettify.css" />
     <link rel="stylesheet" href="../../base.css" />
@@ -19,7 +19,7 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../../index.html">All files</a> / <a href="index.html">users/services</a> SendForgotPasswordEmailService.ts</h1>
+        <h1><a href="../../index.html">All files</a> / <a href="index.html">appointments/services</a> ListProviderMonthAvailability.ts</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
@@ -30,16 +30,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">70.77% </span>
+                <span class="strong">62.07% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>46/65</span>
+                <span class='fraction'>36/58</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">87.5% </span>
+                <span class="strong">86.67% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>14/16</span>
+                <span class='fraction'>13/15</span>
             </div>
         
             
@@ -126,107 +126,107 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">import { injectable, inject } from 'tsyringe';
-import path from 'path';
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">341x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">31x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">import { inject, injectable } from 'tsyringe';
+import { getDaysInMonth, getDate } from 'date-fns';
 &nbsp;
-import IUsersRepository from '@modules/users/repositories/IUsersRepository'
-import IMailProvider from '@shared/container/providers/MailProvider/models/IMailProvider';
-import IUserTokensRepository from '@modules/users/repositories/IUserTokensRepository';
-import AppError from '@shared/errors/AppError';
+import IAppointmentsRepository from '../repositories/IAppointmentsRepository';
 &nbsp;
 interface IRequest {
-  email: string;
+  provider_id: string;
+  month: number;
+  year: number;
 }
+&nbsp;
+type IResponse = Array&lt;{
+  day: number;
+  available: boolean;
+}&gt;;
 &nbsp;
 @injectable()
-class SendForgotPasswordEmailService {
+class ListProviderMonthAvailabilityService {
   constructor(
-    @inject('UsersRepository')
-    private usersRepository: IUsersRepository,
+    @inject('AppointmentsRepository')
+    private appointmentsRepository: IAppointmentsRepository
+  ) {};
 &nbsp;
-    @inject('MailProvider')
-    private mailProvider: IMailProvider,
+  public async execute({ provider_id, month, year }: IRequest): Promise&lt;IResponse&gt; {
+    const appointments = await this.appointmentsRepository.findAllInMonthFromProvider({
+      provider_id,
+      month,
+      year
+    });
+    
+    const numberOfDaysInMonth = getDaysInMonth(
+      new Date(year, month - 1)
+    );
 &nbsp;
-    @inject('UserTokensRepository')
-    private userTokensRepository: IUserTokensRepository,
-  ) {}
+    const eachDayArray = Array.from(
+      { length: numberOfDaysInMonth },
+      (_, index) =&gt; index + 1,
+    );
 &nbsp;
-  public async execute({ email }: IRequest): Promise&lt;void&gt; {
-    const user = await this.usersRepository.findByEmail(email);
+    const availability = eachDayArray.map(day =&gt; {
+      const appointmentsInDay = appointments.filter(appointment =&gt; {
+        return getDate(appointment.date) === day;
+      });
 &nbsp;
-    if(!user) {
-      throw new AppError('User does not exists.')
-    }
-&nbsp;
-    const { token } = await this.userTokensRepository.generate(user.id);
-&nbsp;
-    const forgotPasswordTemplate = path.resolve(__dirname, '..', 'views', 'forgot_password.hbs')
-&nbsp;
-    await this.mailProvider.sendMail({
-      to: {
-        name: user.name,
-        email: user.email,
-      },
-      subject: '[GoBarber] Recuperação de senha',
-      templateData: {
-        file: forgotPasswordTemplate,
-        variables: {
-          name: user.name,
-          link: `http://localhost:3000/reset_password?token=${token}`,
-        }
+      return {
+        day,
+        available: appointmentsInDay.length &lt; 10,
       }
-    }
-    )
-  }
-}
+    });
 &nbsp;
-export default SendForgotPasswordEmailService;<span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></pre></td></tr></table></pre>
+    return availability;
+  };
+};
+&nbsp;
+export default ListProviderMonthAvailabilityService;<span class="fstat-no" title="function not covered" ><span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ><span class="branch-0 cbranch-no" title="branch not covered" ></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank">istanbul</a>
-                at Wed Oct 07 2020 22:35:11 GMT-0300 (GMT-03:00)
+                at Tue Oct 06 2020 23:28:26 GMT-0300 (GMT-03:00)
             </div>
         </div>
         <script src="../../prettify.js"></script>
